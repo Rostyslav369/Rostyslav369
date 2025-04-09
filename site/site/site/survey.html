@@ -1,69 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Rostyslav Andres">
-    <meta name="description" content="Survey Form by Rostyslav Andres">
-    <title>Survey</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rostyslav Andres | Survey</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
-
 <body>
-    <div class="width-wrap">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="links.html">Links</a></li>
-                    <li><a href="glossary.html">Glossary</a></li>
-                    <li><a href="survey.html">Survey</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <img src="images/logo.png" alt="Rostyslav's Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="glossary.html">Glossary</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Survey</h1>
+        <form action="https://formspree.io/f/mldjejlw" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
 
-        <main>
-            <h1>User Survey</h1>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="5" cols="30"></textarea><br>
 
-                <label for="favlang">Favorite Programming Language:</label>
-                <select id="favlang" name="favlang">
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                    <option value="javascript">JavaScript</option>
-                    <option value="python">Python</option>
-                </select><br><br>
+            <label for="rating">Rate this site:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select><br>
 
-                <label>Would you recommend this site?</label><br>
-                <input type="radio" id="yes" name="recommend" value="yes">
-                <label for="yes">Yes</label><br>
-                <input type="radio" id="no" name="recommend" value="no">
-                <label for="no">No</label><br><br>
-
-                <label for="comments">Additional Comments:</label><br>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
-
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-            </form>
-        </main>
-
-        <footer>
-            <hr>
-            <blockquote>
-                <p>"The best way to predict the future is to create it."</p>
-                <cite>— <span class="author">Abraham Lincoln</span></cite>
-            </blockquote>
-            <p>© 2025 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav Andres</a></p>
-        </footer>
-    </div>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rostyslav Andres</p>
+    </footer>
 </body>
-
 </html>
