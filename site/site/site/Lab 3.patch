@@ -1,0 +1,364 @@
+diff --git a/backup/logo.png b/backup/logo.png
+new file mode 100644
+index 0000000..d45b099
+Binary files /dev/null and b/backup/logo.png differ
+diff --git a/favicon/apple-touch-icon.png b/favicon/apple-touch-icon.png
+new file mode 100644
+index 0000000..536fabc
+Binary files /dev/null and b/favicon/apple-touch-icon.png differ
+diff --git a/favicon/favicon-96x96.png b/favicon/favicon-96x96.png
+new file mode 100644
+index 0000000..184f199
+Binary files /dev/null and b/favicon/favicon-96x96.png differ
+diff --git a/favicon/favicon.ico b/favicon/favicon.ico
+new file mode 100644
+index 0000000..0ba2282
+Binary files /dev/null and b/favicon/favicon.ico differ
+diff --git a/favicon/favicon.svg b/favicon/favicon.svg
+new file mode 100644
+index 0000000..6d0f4a0
+--- /dev/null
++++ b/favicon/favicon.svg
+@@ -0,0 +1,3 @@
++<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="180" height="180" viewBox="0 0 180 180"><image width="180" height="180" xlink:href="data:image/png;base64,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"></image><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
++@media (prefers-color-scheme: dark) { :root { filter: none; } }
++</style></svg>
+\ No newline at end of file
+diff --git a/favicon/site.webmanifest b/favicon/site.webmanifest
+new file mode 100644
+index 0000000..ccf313a
+--- /dev/null
++++ b/favicon/site.webmanifest
+@@ -0,0 +1,21 @@
++{
++  "name": "MyWebSite",
++  "short_name": "MySite",
++  "icons": [
++    {
++      "src": "/web-app-manifest-192x192.png",
++      "sizes": "192x192",
++      "type": "image/png",
++      "purpose": "maskable"
++    },
++    {
++      "src": "/web-app-manifest-512x512.png",
++      "sizes": "512x512",
++      "type": "image/png",
++      "purpose": "maskable"
++    }
++  ],
++  "theme_color": "#ffffff",
++  "background_color": "#ffffff",
++  "display": "standalone"
++}
+\ No newline at end of file
+diff --git a/favicon/web-app-manifest-192x192.png b/favicon/web-app-manifest-192x192.png
+new file mode 100644
+index 0000000..e2c505f
+Binary files /dev/null and b/favicon/web-app-manifest-192x192.png differ
+diff --git a/favicon/web-app-manifest-512x512.png b/favicon/web-app-manifest-512x512.png
+new file mode 100644
+index 0000000..13b3797
+Binary files /dev/null and b/favicon/web-app-manifest-512x512.png differ
+diff --git a/glossary.html b/glossary.html
+new file mode 100644
+index 0000000..3d10a3a
+--- /dev/null
++++ b/glossary.html
+@@ -0,0 +1,45 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="author" content="Rostyslav Andres">
++    <meta name="description" content="A personal website by Rostyslav Andres.">
++    <title>Glossary</title>
++    <link rel="icon" type="image/x-icon" href="favicon.ico">
++</head>
++
++<body>
++    <div class="width-wrap">
++        <header id="top">
++            <nav>
++                <ul>
++                    <li><a href="index.html">Home</a></li>
++                    <li><a href="links.html">Links</a></li>
++                    <li><a href="glossary.html">Glossary</a></li>
++                </ul>
++            </nav>
++        </header>
++
++        <main>
++            <h1>Glossary</h1>
++            <p><strong>HTML</strong>: Hypertext Markup Language, the standard language for creating web pages.</p>
++            <p><strong>CSS</strong>: Cascading Style Sheets, used to describe the presentation of a document written in
++                HTML.</p>
++            <p><strong>JavaScript</strong>: A programming language used to create interactive effects within web
++                browsers.</p>
++        </main>
++
++        <footer>
++            <hr>
++            <blockquote>
++                <p>"The best way to predict the future is to create it."</p>
++                <cite>— <span class="author">Abraham Lincoln</span></cite>
++            </blockquote>
++            <p>© 2021 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav
++                    Andres</a></p>
++        </footer>
++    </div>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/images/logo.png b/images/logo.png
+new file mode 100644
+index 0000000..d45b099
+Binary files /dev/null and b/images/logo.png differ
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..5d79fce
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="author" content="Rostyslav Andres">
++    <meta name="description" content="A personal website by Rostyslav Andres.">
++    <title>Rostyslav Andres' Website</title>
++    <link rel="icon" type="image/x-icon" href="favicon.ico">
++</head>
++
++<body>
++    <div class="width-wrap">
++        <header id="top">
++            <nav>
++                <ul>
++                    <li><a href="index.html">Home</a></li>
++                    <li><a href="links.html">Links</a></li>
++                    <li><a href="glossary.html">Glossary</a></li>
++                </ul>
++            </nav>
++        </header>
++
++        <main>
++            <h1>Welcome to Rostyslav Andres' Website!</h1>
++            <p>Hello! My name is Rostyslav Andres. I am passionate about technology and coding. I enjoy learning new
++                programming languages and improving my problem-solving skills. I'm always excited to explore new
++                challenges and technologies.</p>
++            <p>When I'm not coding, I enjoy gaming and reading about new advancements in the tech industry. My favorite
++                programming languages are Python and JavaScript, and I aim to master web development. My goal is to
++                contribute to open-source projects and collaborate with other developers.</p>
++
++            <h2>My Favourite Things</h2>
++            <figure>
++                <a href="https://example.com">
++                    <img src="images/logo.png" alt="Logo">
++                </a>
++                <figcaption>This is my favorite logo because it represents my passion for gaming.</figcaption>
++            </figure>
++
++            <h2>My Favorite YouTube Video</h2>
++            <iframe width="560" height="315" src="https://www.youtube.com/embed/FyL1jweSSZg?si=x8GzPQFtWzC1mAyW"
++                title="YouTube video player" frameborder="0"
++                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
++                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
++            </iframe>
++
++            <h2>Relaxing Background Music</h2>
++            <audio controls>
++                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
++                Your browser does not support the audio element.
++                <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" download
++                    title="Download Audio">Download here</a>.
++            </audio>
++
++            <h2>SVG Image (Direct Embed)</h2>
++            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
++                <circle cx="100" cy="100" r="80" stroke="black" stroke-width="4" fill="lightblue" />
++                <text x="100" y="120" font-family="Arial" font-size="20" text-anchor="middle" fill="black">My SVG</text>
++            </svg>
++
++            <h3>Favourite Games</h3>
++            <ol>
++                <li>Counter Strike 2</li>
++                <li>Cyberpunk 2077</li>
++                <li>The Elder Scrolls V: Skyrim</li>
++            </ol>
++
++            <h3>Haiku</h3>
++            <p>Learning to code fast, <br>Challenging the limits now, <br>Tech is my future.</p>
++            <p><cite>by <span class="author">Rostyslav Andres</span></cite></p>
++        </main>
++
++        <footer>
++            <hr>
++            <blockquote>
++                <p>"The best way to predict the future is to create it."</p>
++                <cite>— <span class="author">Abraham Lincoln</span></cite>
++            </blockquote>
++            <p>© 2021 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav Andres</a>
++            </p>
++        </footer>
++    </div>
++    <script src="main.js"></script>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..3b068bd
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,45 @@
++<!DOCTYPE html>
++<html lang="en">
++
++<head>
++    <meta charset="UTF-8">
++    <meta name="author" content="Rostyslav Andres">
++    <meta name="description" content="A personal website by Rostyslav Andres.">
++    <title>Links</title>
++    <link rel="icon" type="image/x-icon" href="favicon.ico">
++</head>
++
++<body>
++    <div class="width-wrap">
++        <header id="top">
++            <nav>
++                <ul>
++                    <li><a href="index.html">Home</a></li>
++                    <li><a href="links.html">Links</a></li>
++                    <li><a href="glossary.html">Glossary</a></li>
++                </ul>
++            </nav>
++        </header>
++
++        <main>
++            <h1>Useful Links</h1>
++            <ul>
++                <li><a href="https://validator.w3.org" target="_blank" title="W3C Validator">W3C Validator</a></li>
++                <li><a href="https://realfavicongenerator.net/" target="_blank" title="Real Favicon Generator">Real
++                        Favicon Generator</a></li>
++            </ul>
++        </main>
++
++        <footer>
++            <hr>
++            <blockquote>
++                <p>"The best way to predict the future is to create it."</p>
++                <cite>— <span class="author">Abraham Lincoln</span></cite>
++            </blockquote>
++            <p>© 2021 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav
++                    Andres</a></p>
++        </footer>
++    </div>
++</body>
++
++</html>
+\ No newline at end of file
+diff --git a/scripts/main.js b/scripts/main.js
+new file mode 100644
+index 0000000..e69de29
+--- /dev/null
++++ b/scripts/main.js
+diff --git a/site/index.html b/site/index.html
+index fe2f8af..6d91fb1 100644
+--- a/site/index.html
++++ b/site/index.html
+@@ -1,5 +1,6 @@
+ <!DOCTYPE html>
+ <html lang="en">
++
+ <head>
+     <meta charset="UTF-8">
+     <meta name="author" content="Rostyslav Andres">
+@@ -7,6 +8,7 @@
+     <title>Rostyslav Andres' Website</title>
+     <link rel="icon" type="image/x-icon" href="favicon.ico">
+ </head>
++
+ <body>
+     <div class="width-wrap">
+         <header id="top">
+@@ -21,15 +23,51 @@
+ 
+         <main>
+             <h1>Welcome to Rostyslav Andres' Website!</h1>
+-            <p>Hello! My name is Rostyslav Andres. I am passionate about technology and coding. I enjoy learning new programming languages and improving my problem-solving skills. I'm always excited to explore new challenges and technologies.</p>
+-            <p>When I'm not coding, I enjoy gaming and reading about new advancements in the tech industry. My favorite programming languages are Python and JavaScript, and I aim to master web development. My goal is to contribute to open-source projects and collaborate with other developers.</p>
++            <p>Hello! My name is Rostyslav Andres. I am passionate about technology and coding. I enjoy learning new
++                programming languages and improving my problem-solving skills. I'm always excited to explore new
++                challenges and technologies.</p>
++            <p>When I'm not coding, I enjoy gaming and reading about new advancements in the tech industry. My favorite
++                programming languages are Python and JavaScript, and I aim to master web development. My goal is to
++                contribute to open-source projects and collaborate with other developers.</p>
+ 
+             <h2>My Favourite Things</h2>
+-            <a href="https://example.com"><img src="images/logo.png" alt="Logo"></a>
++            <figure>
++                <a href="https://example.com">
++                    <img src="images/logo.png" alt="Logo">
++                </a>
++                <figcaption>This is my favorite logo because it represents my passion for gaming.</figcaption>
++            </figure>
++
++            <h2>My Favorite YouTube Video</h2>
++            <iframe width="560" height="315" src="https://www.youtube.com/embed/FyL1jweSSZg?si=x8GzPQFtWzC1mAyW"
++                title="YouTube video player" frameborder="0"
++                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
++                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
++            </iframe>
++
++            <h2>Relaxing Background Music</h2>
++            <audio controls>
++                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
++                Your browser does not support the audio element.
++                <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" download
++                    title="Download Audio">Download here</a>.
++            </audio>
++
++            <h2>SVG Image (Direct Embed)</h2>
++            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
++                <circle cx="100" cy="100" r="80" stroke="black" stroke-width="4" fill="lightblue" />
++                <text x="100" y="120" font-family="Arial" font-size="20" text-anchor="middle" fill="black">My SVG</text>
++            </svg>
++
++            <picture>
++                <source srcset="images/logo.svg" type="image/svg+xml">
++                <img src="images/logo.png" alt="Logo">
++            </picture>
++
+ 
+             <h3>Favourite Games</h3>
+             <ol>
+-                <li>The Witcher 3</li>
++                <li>Counter Strike 2</li>
+                 <li>Cyberpunk 2077</li>
+                 <li>The Elder Scrolls V: Skyrim</li>
+             </ol>
+@@ -45,9 +83,11 @@
+                 <p>"The best way to predict the future is to create it."</p>
+                 <cite>— <span class="author">Abraham Lincoln</span></cite>
+             </blockquote>
+-            <p>© 2021 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav Andres</a></p>
++            <p>© 2021 <a href="mailto:24026408@saultcollege.ca?subject=Message from CSD112 Website">Rostyslav Andres</a>
++            </p>
+         </footer>
+     </div>
+     <script src="main.js"></script>
+ </body>
+-</html>
++
++</html>
+\ No newline at end of file
+diff --git a/styles/main.css b/styles/main.css
+new file mode 100644
+index 0000000..e69de29
+--- /dev/null
++++ b/styles/main.css
