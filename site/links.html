@@ -12,18 +12,33 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap"
         rel="stylesheet">
+    <style>
+        ul {
+            padding: 0;
+        }
+
+        ul li {
+            background-image: url('images/link.png');
+            background-size: 10px 10px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 1em;
+            list-style: none;
+        }
+    </style>
 </head>
 
 <body>
     <div class="width-wrap">
         <header id="top">
             <nav>
-                <ul>
+                <ul class="nav-flex">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="links.html">Links</a></li>
                     <li><a href="glossary.html">Glossary</a></li>
                     <li><a href="survey.html">Survey</a></li>
                     <li><a href="lorem.html">Lorem</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,8 +60,7 @@
                 <p>"The best way to predict the future is to create it."</p>
                 <cite>— <span class="author">Abraham Lincoln</span></cite>
             </blockquote>
-            <p>© 2025 <a href="mailto:24026408@saultcollege.ca?subject=Message%20from%20CSD112%20Website">Rostyslav
-                    Andres</a></p>
+            <p>© 2025 <a id="backtotop" href="#top">Rostyslav Andres</a></p>
         </footer>
     </div>
 </body>
