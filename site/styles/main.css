@@ -10,12 +10,7 @@ body {
 }
 
 /* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -42,6 +37,7 @@ header nav ul.nav-flex {
   gap: 10px;
   padding: 0;
   list-style-type: none;
+  transition: height 0.2s ease;
 }
 
 header nav ul.nav-flex li {
@@ -53,6 +49,7 @@ header nav a {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
+  padding: 1em 0.5em;
 }
 
 /* H1 Gradient Text */
@@ -64,7 +61,7 @@ h1 {
 
 /* Bio Section - Three Columns */
 .bio {
-  column-count: 3;
+  column-width: 13em;
   column-gap: 2em;
 }
 
@@ -76,12 +73,12 @@ h1 {
 }
 
 .bio caption {
-  caption-side: bottom;
+  caption-side: top;
+  font-weight: bold;
+  padding: 0.5em;
 }
 
-/* Table Cell Borders */
-table td,
-table th {
+table td, table th {
   border: 1px solid #ccc;
   padding: 0.5em;
 }
@@ -107,19 +104,22 @@ footer {
 footer a#backtotop {
   position: sticky;
   bottom: 10px;
+  margin-left: -25px;
+  display: inline-block;
   background-color: #004466;
   color: white;
   padding: 0.5em 1em;
   border-radius: 1em;
-  display: inline-block;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
 }
 
 footer a#backtotop:hover {
   background-color: #006699;
-  text-decoration: none;
+  transform: rotate(45deg);
+  text-decoration: underline;
 }
 
 /* Survey Radio Button List */
@@ -129,6 +129,12 @@ form ul.radio-list {
 }
 
 /* Flexbox Favorites Tabs */
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
 .favorites .tabs {
   display: flex;
   gap: 1em;
@@ -144,57 +150,8 @@ form ul.radio-list {
   border-radius: 0.5em;
 }
 
-/* CSS Gallery Grid */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1em;
-  margin-top: 2em;
-}
-
-.gallery-grid img {
-  width: 100%;
-  display: block;
-  border: 2px solid #ccc;
-  border-radius: 1em;
-}
-
-/* Paperclip Positioned Image */
-.clip {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 50px;
-  transform: rotate(-20deg);
-  z-index: 10;
-}
-
-/* Ensure proper layering */
-main {
-  position: relative;
-}
-
-/* Utility */
-.width-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em;
-}
-
-.photo-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-/* --- Favorites Tabs --- */
 .favorites input {
   display: none;
-}
-
-.favorites {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
 }
 
 .favorites label {
@@ -224,9 +181,9 @@ main {
   display: block;
 }
 
-/* --- Paperclip Positioning --- */
+/* Paperclip Positioned Image */
 .bio a {
-  display: block;
+  display: inline-block;
   position: relative;
 }
 
@@ -239,17 +196,17 @@ main {
   box-shadow: none;
 }
 
-/* --- Gallery Layout --- */
+/* Gallery Layout */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 10px;
 }
 
 .gallery a {
   display: block;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .gallery a:hover {
@@ -271,15 +228,132 @@ main {
   grid-column: span 2;
 }
 
-/* --- Sticky Back-to-Top Enhancements --- */
-footer a#backtotop {
-  position: sticky;
-  bottom: 10px;
-  margin-left: -25px;
-  display: inline-block;
-  transition: transform 0.3s ease;
+/* Utility */
+.width-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
 }
 
-footer a#backtotop:hover {
-  transform: rotate(45deg);
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* Media Queries — Responsive Design */
+
+
+@media screen and (max-width: 450px) {
+  .col-span-2 {
+    grid-column: span 1;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .bio table thead,
+  .bio table tfoot,
+  .bio table th {
+    display: none;
+  }
+
+  .bio table td {
+    display: block;
+    padding: 0 1rem;
+  }
+
+  .bio table td:first-of-type {
+    padding-top: 0.3em;
+    font-weight: bold;
+  }
+
+  .bio table td:last-of-type {
+    padding-bottom: 0.3em;
+    font-style: italic;
+    font-size: 0.8em;
+  }
+
+  .bio table td:last-of-type::after {
+    content: " hrs/wk";
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .float-left,
+  .float-right {
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .favorites {
+    flex-direction: column;
+  }
+
+  .favorites > label {
+    order: 0;
+  }
+}
+
+/* Navigation responsive layout */
+@media screen and (max-width: 750px) {
+  nav input#menu-toggle,
+  nav label.sandwich-icon {
+    display: block;
+  }
+
+  nav input#menu-toggle {
+    display: none;
+  }
+
+  nav label.sandwich-icon {
+    width: 40px;
+    height: 25px;
+    border-top: 5px solid #333;
+    margin: 1em auto;
+    cursor: pointer;
+    position: relative;
+  }
+
+  nav label.sandwich-icon::before,
+  nav label.sandwich-icon::after {
+    content: "";
+    display: block;
+    width: 40px;
+    border-top: 5px solid #333;
+    position: absolute;
+    left: 0;
+  }
+
+  nav label.sandwich-icon::before {
+    top: 5px;
+  }
+
+  nav label.sandwich-icon::after {
+    top: 15px;
+  }
+
+  header nav ul.nav-flex {
+    flex-direction: column;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+  }
+
+  #menu-toggle:checked + label + ul.nav-flex {
+    height: 250px;
+  }
+
+  header nav a {
+    padding-top: 0.5em;
+    border-top: none;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
 }
